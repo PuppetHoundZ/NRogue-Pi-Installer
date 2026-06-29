@@ -6,12 +6,18 @@ Source:  [https://github.com/xterminal86/nrogue](https://github.com/xterminal86/
 License: MIT
 
 Features:
+
 • Clones nrogue from GitHub and builds the ncurses version (lighter weight
 than SDL2, no window manager needed, works perfectly in any terminal)
+
 • Installs binary to ~/.local/bin (fully userland, no root beyond apt)
+
 • Copies config-template.txt → ~/.config/nrogue/config.txt for the user
+
 • Installs desktop shortcut (opens in x-terminal-emulator)
+
 • Installs SVG icon to hicolor theme hierarchy
+
 • Uninstall cleanly removes all installed files; system deps retained
 
 Build variant chosen: ncurses (USE_SDL=OFF)
