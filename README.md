@@ -21,6 +21,7 @@ than SDL2, no window manager needed, works perfectly in any terminal)
 • Uninstall cleanly removes all installed files; system deps retained
 
 Build variant chosen: ncurses (USE_SDL=OFF)
+
 Reason: ncurses is terminal-native, zero GPU/compositor concerns under
 labwc Wayland. Lighter compile, smaller binary, no SDL2 window sizing
 issues on 800×480 touchscreen. SDL2 build would work but is unnecessary
