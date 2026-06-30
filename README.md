@@ -42,3 +42,10 @@ Do NOT run as root.
 Disclaimer:
 Provided as-is, free of charge, for Raspberry Pi users. Not affiliated
 with the nrogue project or Raspberry Pi Ltd. Use at your own risk.
+
+
+## Credits & Upstream Sources
+This installer builds [nrogue](https://github.com/xterminal86/nrogue) from source,
+an ncurses roguelike by xterminal86, licensed under MIT.
+This installer script is independently authored and MIT-licensed;
+it is not affiliated with the nrogue project.
